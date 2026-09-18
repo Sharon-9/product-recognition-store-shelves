@@ -2,6 +2,11 @@
 
 Computer vision pipeline for recognizing cereal-box products on store shelves, localizing detected instances, and counting multiple occurrences using classical feature-based methods.
 
+Course project developed for **Image Processing and Computer Vision**  
+MSc in Automation Engineering — University of Bologna
+
+**Course instructor:** Prof. Luigi Di Stefano
+
 The project is implemented in Python and OpenCV and is organized into two stages:
 
 - **Step A — Single-instance detection**
