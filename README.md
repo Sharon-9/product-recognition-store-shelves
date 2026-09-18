@@ -63,11 +63,12 @@ The pipeline recognizes product models in a shelf image, localizes each detected
 Example output:
 
 ```text
-Product 0 - 1 Instances Found:
-Instance 0 [ position: (170,237), width: 327 px, height: 453 px]
-
-Product 2 - 1 Instances Found:
-Instance 0 [ position: (474,192), width: 304 px, height: 384 px]
+Product 4 - 1 Instances Found:
+Instance 0 [ position: (168,232), width: 336 px, height: 465 px]
+Product 5 - 1 Instances Found:
+Instance 0 [ position: (540,231), width: 339 px, height: 463 px]
+Product 6 - 1 Instances Found:
+Instance 0 [ position: (878,227), width: 321 px, height: 441 px]
 ```
 
 ### Multiple-Instance Detection
@@ -79,19 +80,14 @@ The pipeline can also detect and count multiple instances of the same product wi
 Example output:
 
 ```text
-Product 1 - 2 Instances Found:
-    Instance 0 [ position: (498,723), width: 317 px, height: 418 px]
-    Instance 1 [ position: (833,713), width: 310 px, height: 423 px]
-
-Product 2 - 1 Instances Found:
-    Instance 0 [ position: (159,712), width: 319 px, height: 413 px]
-
-Product 3 - 1 Instances Found:
-    Instance 0 [ position: (907,192), width: 300 px, height: 384 px]
-
+Product 4 - 2 Instances Found:
+	Instance 0 [ position: ((537,223), width: 363 px, height: 446 px]
+	Instance 1 [ position: ((176,228), width: 352 px, height: 457 px]
 Product 5 - 2 Instances Found:
-    Instance 0 [ position: (562,229), width: 333 px, height: 457 px]
-    Instance 1 [ position: (234,223), width: 338 px, height: 447 px]
+	Instance 0 [ position: ((1270,216), width: 333 px, height: 432 px]
+	Instance 1 [ position: ((1585,218), width: 318 px, height: 436 px]
+Product 6 - 1 Instances Found:
+	Instance 0 [ position: ((920,222), width: 345 px, height: 444 px]
 ```
 
 ## Technologies
